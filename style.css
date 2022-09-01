@@ -1,0 +1,171 @@
+*{
+    font-family: cursive;
+}
+
+
+.save {
+   
+    box-shadow:  rgba(25, 16, 16, 0.932) 1px 1px 90px 10px;
+   background-size: cover;
+}
+
+section {
+    margin:  auto;
+  
+    background-repeat: repeat;
+    
+     background-color: rgba(105, 27, 27, 0.611);
+  background-image: url(./images/aron-visuals-BXOXnQ26B7o-unsplash.jpg);
+    background-size: cover;
+    width: 60%;
+    min-height: 500px;
+    /* border-radius: %; */
+    display: flex;
+    flex-direction: column;
+    
+
+}
+
+
+#days {
+    /* background-color: aqua; */
+    /* font-size: 4rem; */
+    /* color: rgb(125, 19, 19); */
+    /* background-color: rgba(255, 255, 255, 0.204); */
+}
+
+#days p {
+   
+    /* text-align: center;
+    background-color: rgba(95, 158, 160, 0.331);
+    border: 1px solid black; */
+}
+
+/* #clock em {
+    color: blue;
+    text-align: center;
+    background-color: rgba(95, 158, 160, 0.331);
+    border: 1px solid black;
+width: 100%;
+} */
+
+ /* #clock {
+    color: rgb(125, 19, 19);
+    background-color: aliceblue;
+    display: flex;width: 100%;
+    flex-direction: column;
+
+
+}  */
+
+@keyframes circle {
+    0% {
+        border: 12px double rgb(15, 139, 248);
+        background-color: rgba(0, 0, 255, 0.318);
+        
+    }
+
+    25%{
+        
+        border: 12px double rgb(235, 245, 53);
+        background-color: rgba(189, 189, 9, 0.401);
+    }
+    
+    50%{
+        
+        border: 12px double rgb(45, 243, 104);
+        background-color: rgba(0, 128, 0, 0.334);
+    }
+    75%{
+        
+        border: 12px double rgb(152, 58, 246);
+        background-color: rgba(128, 0, 128, 0.462);
+    }
+    100%{
+        
+        border: 12px double rgb(231, 38, 38);
+        background-color: rgba(255, 0, 0, 0.363);
+    }
+
+}
+
+
+@keyframes long {
+    0% {
+        box-shadow: 0 0 10px 3px  rgb(15, 139, 248);
+        background-color: rgba(0, 0, 255, 0.45);
+        transform: rotatez(0deg); 
+    
+    }
+
+    25%{
+        /* transform: rotatez(90deg);  */
+        box-shadow: 0 0 10px 3px rgb(235, 245, 53);
+       background-color: rgba(189, 189, 9, 0.436);
+       /* border-left: solid black 3px; */
+    }
+    
+    50%{
+        /* transform: rotatez(180deg);  */
+        box-shadow: 0 0 10px 3px rgb(45, 243, 104);
+        background-color: rgba(0, 128, 0, 0.459);
+        /* border-bottom: solid black 3px; */
+    }
+    75%{
+        /* transform: rotatez(270deg);  */
+        box-shadow: 0 0 10px 3px rgb(152, 58, 246);
+        /* border-right: solid black 3px; */
+        background-color: rgba(128, 0, 128, 0.563); 
+    }
+    100%{
+        /* transform: rotatez(360deg);  */
+        box-shadow: 0 0 10px 3px rgb(231, 38, 38);
+ background-color: rgba(255, 0, 0, 0.482);
+ border-top: solid black 3px; 
+ 
+    }
+
+}
+
+section {
+   
+    border: double 12px red;
+    /* border-radius: 50%; */
+    animation-name: circle;
+    animation-iteration-count: infinite;
+    animation-duration: 60s;
+    animation-delay: 0s;
+    animation-play-state: running;
+    animation-direction: normal;
+    /* position: relative; */
+    display: flex;
+    /* justify-content: center; */
+    align-items: center;
+    justify-content: center;
+
+}
+
+.all {
+    
+    width: 250px;
+    height: 250px;
+    position: absolute;
+ /* border-radius: 50%; */
+background-color: white;
+animation-name: long;
+animation-iteration-count: infinite;
+animation-duration: 60s;
+animation-delay: 0s;
+animation-play-state: running;
+animation-direction: normal;
+position: relative;
+display: flex;
+flex-direction: column;
+color: aliceblue;
+align-items: center; 
+justify-content: center;
+border-top: solid black 3px;
+
+}
+
+.short {}
